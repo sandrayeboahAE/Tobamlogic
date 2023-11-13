@@ -1,12 +1,15 @@
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-        <Navbar />
-      <body>{children}</body>
-      <Footer />
-    </html>
-  )
+const Layout = ({ children }) => {
+    return ( 
+        <div>
+           <Navbar />
+           <main>{children}</main>
+           <Footer />
+        </div>
+     );
 }
+ 
+export default Layout;
+    
