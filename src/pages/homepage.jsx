@@ -13,7 +13,7 @@ const HomePage = () => {
         <Contact />
         <Courses />
         <Training />
-        <Success />
+        {/* <Success /> */}
         <Clients />
     </div> );
 }

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Contact = () => {
     return ( <div className="flex flex-col">
-        <div className="flex flex-col w-screen px-36 py-8">
+        <div className="flex flex-col w-full px-36 py-8">
             <div className="m-10">
                 <h1 className="font-bold text-3xl">How it Works</h1>
             </div>

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const About = () => {
     return ( 
-        <div>
+        <div className="w-full">
             <div className="bg-[#E6E6EB] p-20 flex flex-row justify-center items-center align-middle text-[#252A64]">
                 <div className="w-1/2">
                     <Image src="/about-image.png" alt="about image" width="700" height="700" />
@@ -53,47 +53,45 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col items-center justify-center m-10 w-screen">
-                <div className="my-10">
-                    <h1 className="font-bold text-3xl">We Provide The Best Services</h1>
-                </div>
-                <div className="flex flex-row m-5 w-4/5 gap-4">
-                    <div className="w-1/3 flex flex-col p-5 m-10 border shadow-md border-b-green rounded-md items-start justify-start gap-8">
-                        <Image src="/explore icons/dashicons_businessperson.png" alt="dash icon" width="50" height="50"/>
-                        <h2>Business Consulting</h2>
-                        <p>We are constructing an improved operational system to assist your business in transforming through 
-                            the potency of technology and innovation, thereby enabling you to make the correct business 
-                            decisions for long-term prosperity.
-                        </p>
-                        <div className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">
-                          <Link href="#">Learn More</Link>
-                        </div>
-                    </div>
-                    <div className="w-1/3 flex flex-col p-5 m-10 border shadow-md border-b-green rounded-md items-start justify-start gap-8">
-                        <Image src="/explore icons/devicon-plain_webpack.png" alt="dash icon" width="50" height="50"/>
-                        <h2>Digital Transformation</h2>
-                        <p>Maximize the potential of digital transformation to minimize risk and stimulate growth. 
-                            Obtain the most up-to-date information on how we can assist in enhancing the durability 
-                            of your business in these ever-evolving times.
-                        </p>
-                        <div className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">
-                          <Link href="#">Learn More</Link>
-                        </div>
-                    </div>
-                    <div className="w-1/3 flex flex-col p-5 m-10 border shadow-md border-b-green rounded-md items-start justify-start gap-8">
-                        <Image src="/explore icons/mdi_people.png" alt="dash icon" width="50" height="50"/>
-                        <h2>Training & Mentoring</h2>
-                        <p>Receive comprehensive, firsthand training and mentorship from our professionals 
-                            who are actively engaged in career development, consulting, coaching, and individual mentoring
-                        </p>
-                        <div className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">
-                          <Link href="#">Learn More</Link>
-                        </div>
+            <div className="my-16 flex justify-center">
+                <h1 className="font-bold text-3xl">We Provide The Best Services</h1>
+            </div>
+            <div className="flex flex-row gap-20 px-40">
+                <div className="border-0 rounded-md w-1/3 flex flex-col p-5 m-10 shadow-md border-b-green items-start justify-start gap-8">
+                    <Image src="/explore icons/dashicons_businessperson.png" alt="dash icon" width="50" height="50"/>
+                    <h2>Business Consulting</h2>
+                    <p>We are constructing an improved operational system to assist your business in transforming through 
+                        the potency of technology and innovation, thereby enabling you to make the correct business 
+                        decisions for long-term prosperity.
+                    </p>
+                    <div className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">
+                      <Link href="#">Learn More</Link>
                     </div>
                 </div>
-                <div>
-                    <button type="submit" className="hover:bg-pink-200 hover:text-white py-3 px-5 border-0 rounded-md">Explore All</button>
+                <div className="border-0 rounded-md w-1/3 flex flex-col p-5 m-10 shadow-md border-b-green items-start justify-start gap-8">
+                    <Image src="/explore icons/devicon-plain_webpack.png" alt="dash icon" width="50" height="50"/>
+                    <h2>Digital Transformation</h2>
+                    <p>Maximize the potential of digital transformation to minimize risk and stimulate growth. 
+                        Obtain the most up-to-date information on how we can assist in enhancing the durability 
+                        of your business in these ever-evolving times.
+                    </p>
+                    <div className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">
+                      <Link href="#">Learn More</Link>
+                    </div>
                 </div>
+                <div className="border-0 rounded-md w-1/3 flex flex-col p-5 m-10 shadow-md border-b-green items-start justify-start gap-8">
+                    <Image src="/explore icons/mdi_people.png" alt="dash icon" width="50" height="50"/>
+                    <h2>Training & Mentoring</h2>
+                    <p>Receive comprehensive, firsthand training and mentorship from our professionals 
+                        who are actively engaged in career development, consulting, coaching, and individual mentoring
+                    </p>
+                    <div className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">
+                      <Link href="#">Learn More</Link>
+                    </div>
+                </div>
+            </div>
+            <div className="flex justify-center text-xl">
+                <button type="submit" className="hover:bg-pink-200 hover:text-white py-3 px-5 border-0 rounded-md">Explore All</button>
             </div>
         </div>
      );

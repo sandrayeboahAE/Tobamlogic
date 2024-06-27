@@ -5,7 +5,7 @@ import { GoDotFill } from "react-icons/go";
 
 const Footer = () => {
     return ( <div>
-        <div className="w-screen bg-[rgba(229, 230, 243, 0.50)] flex flex-row items-start justify-between gap-8 py-20 px-64 border rounded-tr-2xl rounded-tl-2xl">
+        <div className="w-full bg-[rgba(229, 230, 243, 0.50)] flex flex-row items-start justify-between gap-8 py-20 px-64 border rounded-tr-2xl rounded-tl-2xl">
             <div className="w-1/5 flex flex-col">
                 <Link href="/">
                    <Image src="/tobam-logo.png" alt="logo" width="200" height="200" />
