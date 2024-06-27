@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Contact = () => {
     return ( <div className="flex flex-col">
-        <div className="flex flex-col w-screen p-36">
+        <div className="flex flex-col w-screen px-36 py-8">
             <div className="m-10">
                 <h1 className="font-bold text-3xl">How it Works</h1>
             </div>
@@ -56,9 +56,9 @@ const Contact = () => {
                    </div>
                 </div>
             </div>
-            <div className="flex items-center justify-center"><button>Contact Us</button></div>
+            <div className="flex items-center justify-center"><button className="hover:bg-pink-200 hover:text-white py-3 px-5 border-0 rounded-md">Contact Us</button></div>
         </div>
-        <div className="flex flex-row justify-center gap-36 items-center p-5 m-5">
+        <div className="flex flex-row justify-center gap-36 items-center p-5">
             <div>
                 <Image src="/contact images/Rectangle 57.png" alt="contact us" width="150" height="150" />
             </div>

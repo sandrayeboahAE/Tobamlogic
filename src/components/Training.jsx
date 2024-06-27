@@ -32,7 +32,7 @@ const Training = () => {
                     </div>
                 </div>
             </div>
-            <div><button>Learn More</button></div>
+            <div><button className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">Learn More</button></div>
         </div>
         <div>
             <div>
@@ -73,7 +73,7 @@ const Training = () => {
                         </div>
                     </div>
                     <div>
-                        <button>Learn More</button>
+                        <button className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">Learn More</button>
                     </div>
                 </div>
                 <div>

@@ -2,8 +2,8 @@ import { Flex } from "@mantine/core";
 import Image from "next/image";
 
 const Courses = () => {
-    return ( <div className="flex flex-col items-center m-10 justify-center">
-        <div className="flex flex-col items-center justify-center p-32 gap-10">
+    return ( <div className="flex flex-col items-center m-5 justify-center">
+        <div className="flex flex-col items-center justify-center py-32 px-8 gap-10">
             <div className="m-3">
                 <h1 className="font-bold text-3xl">Tobams Logic Academy</h1>
             </div>
@@ -17,7 +17,7 @@ const Courses = () => {
                     <p className="text-lg">Browse through our extensive catalogue of courses spanning various domains and industries, and enrol in your chosen course to unlock a world of knowledge. Our enrollment process is user-friendly 
                         and seamless, ensuring you can begin learning right away.
                     </p>
-                    <button>Learn More</button>
+                    <button className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">Learn More</button>
                 </div>
                 <div className="w-1/3">
                     <Image src="/logic image.png" alt="logic" width="500" height="500" />
@@ -47,7 +47,7 @@ const Courses = () => {
                     </div>
                     <div>
                         <p>110.00</p>
-                        <button>Learn More</button>
+                        <button className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">Learn More</button>
                     </div>
                 </div>
                 <div className="flex flex-col bg-white w-1/3 m-5 gap-5">
@@ -68,7 +68,7 @@ const Courses = () => {
                     </div>
                     <div>
                         <p>110.00</p>
-                        <button>Learn More</button>
+                        <button className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">Learn More</button>
                     </div>
                 </div>
                 <div className="flex flex-col bg-white w-1/3 m-5 gap-5">
@@ -89,13 +89,13 @@ const Courses = () => {
                     </div>
                     <div>
                         <p>110.00</p>
-                        <button>Learn More</button>
+                        <button className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">Learn More</button>
                     </div>
                 </div>
             </div>
         </div>
         <div>
-            <button>Explore All Courses</button>
+            <button className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">Explore All Courses</button>
         </div>
     </div> );
 }

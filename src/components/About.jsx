@@ -65,7 +65,9 @@ const About = () => {
                             the potency of technology and innovation, thereby enabling you to make the correct business 
                             decisions for long-term prosperity.
                         </p>
-                        <Link href="#">Learn More</Link>
+                        <div className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">
+                          <Link href="#">Learn More</Link>
+                        </div>
                     </div>
                     <div className="w-1/3 flex flex-col p-5 m-10 border shadow-md border-b-green rounded-md items-start justify-start gap-8">
                         <Image src="/explore icons/devicon-plain_webpack.png" alt="dash icon" width="50" height="50"/>
@@ -74,7 +76,9 @@ const About = () => {
                             Obtain the most up-to-date information on how we can assist in enhancing the durability 
                             of your business in these ever-evolving times.
                         </p>
-                        <Link href="#">Learn More</Link>
+                        <div className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">
+                          <Link href="#">Learn More</Link>
+                        </div>
                     </div>
                     <div className="w-1/3 flex flex-col p-5 m-10 border shadow-md border-b-green rounded-md items-start justify-start gap-8">
                         <Image src="/explore icons/mdi_people.png" alt="dash icon" width="50" height="50"/>
@@ -82,11 +86,13 @@ const About = () => {
                         <p>Receive comprehensive, firsthand training and mentorship from our professionals 
                             who are actively engaged in career development, consulting, coaching, and individual mentoring
                         </p>
-                        <Link href="#">Learn More</Link>
+                        <div className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">
+                          <Link href="#">Learn More</Link>
+                        </div>
                     </div>
                 </div>
                 <div>
-                    <button>Explore All</button>
+                    <button type="submit" className="hover:bg-pink-200 hover:text-white py-3 px-5 border-0 rounded-md">Explore All</button>
                 </div>
             </div>
         </div>
