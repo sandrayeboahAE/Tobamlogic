@@ -1,3 +1,4 @@
+import { Flex } from "@mantine/core";
 import Image from "next/image";
 
 const Courses = () => {
@@ -24,13 +25,13 @@ const Courses = () => {
             </div>
         </div>
         <div className="flex flex-col justify-center">
-            <div className="m-5">
-                <h1 className="font-bold text-3xl">Training & Mentoring At Tobams Logic</h1>
+            <div className="m-5 flex self-center">
+                <h1 className="font-bold text-4xl">Most Popular Courses</h1>
             </div>
-            <div className="flex flex-row items-start justify-center">
-                <div>
-                    <div>
-                        <Image src="/courses images/Frame 21.png" alt="courses2" width="200" height="200" />
+            <div className="w-screen flex">
+                <div className="flex flex-col bg-white w-1/3 m-5 gap-5">
+                    <div className="">
+                        <Image src="/courses images/Frame 21.png" alt="courses2" width="400" height="400"/>
                     </div>
                     <div>
                         <p>Tobams Logic</p>
@@ -40,8 +41,8 @@ const Courses = () => {
                         <h3>Business Analysis</h3>
                     </div>
                     <div>
-                        <p>Immerse yourself in dynamic lessons that combine 
-                            the power of sight and sound to enhance your understanding. Whether you are a visual learner or an 
+                        <p>Immerse yourself in dynamic lessons that <br/> combine 
+                            the power of sight and sound to <br/> enhance your understanding. Whether you are a <br/> visual learner or an 
                         </p>
                     </div>
                     <div>
@@ -49,9 +50,9 @@ const Courses = () => {
                         <button>Learn More</button>
                     </div>
                 </div>
-                <div>
+                <div className="flex flex-col bg-white w-1/3 m-5 gap-5">
                     <div>
-                        <Image src="/courses images/Frame 21 (1).png" alt="courses2" width="200" height="200"/>
+                        <Image src="/courses images/Frame 21 (1).png" alt="courses2" width="400" height="400"/>
                     </div>
                     <div>
                         <p>Tobams Logic</p>
@@ -61,8 +62,8 @@ const Courses = () => {
                         <h3>Business Analysis</h3>
                     </div>
                     <div>
-                        <p>Immerse yourself in dynamic lessons that combine 
-                            the power of sight and sound to enhance your understanding. Whether you are a visual learner or an 
+                        <p>Immerse yourself in dynamic lessons that <br/> combine 
+                            the power of sight and sound to <br/> enhance your understanding. Whether you are a <br/> visual learner or an 
                         </p>
                     </div>
                     <div>
@@ -70,9 +71,9 @@ const Courses = () => {
                         <button>Learn More</button>
                     </div>
                 </div>
-                <div>
+                <div className="flex flex-col bg-white w-1/3 m-5 gap-5">
                     <div>
-                        <Image src="/courses images/Frame 21 (2).png" alt="courses2" width="200" height="200" />
+                        <Image src="/courses images/Frame 21 (2).png" alt="courses2" width="400" height="400" />
                     </div>
                     <div>
                         <p>Tobams Logic</p>
@@ -82,8 +83,8 @@ const Courses = () => {
                         <h3>Business Analysis</h3>
                     </div>
                     <div>
-                        <p>Immerse yourself in dynamic lessons that combine 
-                            the power of sight and sound to enhance your understanding. Whether you are a visual learner or an 
+                        <p>Immerse yourself in dynamic lessons that <br/> combine 
+                            the power of sight and sound to <br/> enhance your understanding. Whether you are a <br/> visual learner or an 
                         </p>
                     </div>
                     <div>
