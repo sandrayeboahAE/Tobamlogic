@@ -4,14 +4,14 @@ import { TbChevronCompactUp } from "react-icons/tb";
 const Training = () => {
     return ( <div>
         <div>
-            <div>
-                <h1>Training & Mentoring At Tobams Logic</h1>
+            <div className="m-8 px-20">
+                <h1 className="font-bold text-4xl">Training & Mentoring At Tobams Logic</h1>
             </div>
-            <div>
-                <div>
-                    <Image src="/training.png" alt="taining" width="600" height="600" />
+            <div className="m-10 flex flex-row justify-between items-start px-20">
+                <div className="w-1/3 mr-10">
+                    <Image src="/training.png" alt="taining" width="800" height="800" />
                 </div>
-                <div>
+                <div className="w-2/3 flex flex-col items-start justify-start gap-7 text-xl mx-10">
                     <div><p>Our training and mentoring services are designed to help businesses 
                         develop the skills and knowledge necessary to succeed. We offer a range 
                         of training and mentoring programs, including leadership development, team building, 
@@ -32,7 +32,7 @@ const Training = () => {
                     </div>
                 </div>
             </div>
-            <div><button className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md">Learn More</button></div>
+            <div className="flex items-center justify-center"><button className="hover:bg-pink-200 hover:text-white py-2 px-4 border-0 rounded-md text-lg font-semibold">Learn More</button></div>
         </div>
         <div>
             <div>
