@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Navbar = () => {
     return ( <div>
-        <div className="flex flex-row items-center justify-around border shadow-md p-3">
+        <div className="flex flex-row items-center justify-around border shadow-md p-3 fixed top-0 left-0 right-0 bg-white">
             <div className="p-2">
                 <Link href="/">
                    <Image src="/tobam-logo.png" alt="page logo" width="120" height="120" />
