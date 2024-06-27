@@ -16,6 +16,12 @@
   }
 }
 
+@font-face {
+  font-family: 'Poppings';
+  src: url('/fonts/clashdisplay/ClashDisplay-Variable.ttf') format('ttf'),
+       url('/fonts/clashdisplay/ClashDisplay-Variable.woff') format('woff');
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   /* background: linear-gradient(
@@ -24,4 +30,9 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
+}
+
+
+.title-text-left {
+  font-family: 
 }
