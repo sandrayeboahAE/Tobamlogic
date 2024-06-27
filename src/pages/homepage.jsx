@@ -7,7 +7,7 @@ import Success from "@/components/Success";
 import Clients from "@/components/Clients";
 
 const HomePage = () => {
-    return ( <div>
+    return ( <div className="mt-28">
         <HomeSlide />
         <About />
         <Contact />

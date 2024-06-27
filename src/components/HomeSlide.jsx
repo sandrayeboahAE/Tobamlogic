@@ -16,10 +16,10 @@ const HomeSlide = () => {
                 </div>
                 <div className="flex flex-row justify-start gap-8 items-center m-3">
                     <div>
-                        <button type="sumbit" className="bg-pink-500 text-white border-0 rounded-md p-3 w-36">Learn More</button>
+                        <button type="sumbit" className="bg-pink-500 text-white border-0 rounded-md p-3 w-36 hover:bg-pink-700">Learn More</button>
                     </div>
                     <div>
-                        <button type="sumbit" className="border p-3 border-pink-400 text-pink-500 rounded-md w-36">Contact Us</button>
+                        <button type="sumbit" className="border p-3 border-pink-400 text-pink-500 rounded-md w-36 hover:bg-pink-500 hover:text-white">Contact Us</button>
                     </div>
                 </div>
             </div>
