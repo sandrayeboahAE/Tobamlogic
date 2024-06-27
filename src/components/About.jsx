@@ -26,7 +26,7 @@ const About = () => {
                         </ul>
                     </div>
                     <div className="my-8">
-                        <button className="bg-[#252A64] text-white p-3 w-36 flex flex-row items-center gap-3 rounded-md border-0">Read More <TbChevronRight /></button>
+                        <button className="bg-[#252A64] hover:bg-[#16193d] text-white p-3 w-36 flex flex-row items-center gap-3 rounded-md border-0">Read More <TbChevronRight /></button>
                     </div>
                 </div>
             </div>
